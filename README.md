@@ -1,3 +1,10 @@
+
+# Introduction
+This is a simple starter project for a Nuxt 3 website that uses GSAP for on enter / on leave animations as well as smooth scroll animations for text and image content. 
+
+## Tech Stack
+[![My Skills](https://skillicons.dev/icons?i=vue,nuxt,sass)](https://skillicons.dev)
+
 # Nuxt 3 Minimal Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
