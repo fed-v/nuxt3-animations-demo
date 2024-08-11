@@ -3,7 +3,7 @@
 This is a simple starter project for a Nuxt 3 website that uses GSAP for on enter / on leave animations as well as smooth scroll animations for text and image content. 
 
 ## Tech Stack
-[![My Skills](https://skillicons.dev/icons?i=vue,nuxt,sass)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=vue,nuxt,sass,docker)](https://skillicons.dev)
 
 # Nuxt 3 Minimal Starter
 
@@ -80,3 +80,29 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Docker
+
+Create and start the development container:
+
+  ```bash
+  docker compose up --build -d
+  ```
+  
+Stop and remove the development container:
+
+  ```bash
+  docker compose down
+  ```
+
+Create and start the production container:
+
+  ```bash
+  docker compose -f compose.production.yaml up --build -d
+  ```
+
+Stop and remove the production container:
+
+  ```bash
+  docker compose -f compose.production.yaml down
+  ```
